@@ -1,0 +1,57 @@
+.peque{
+	font-size: 14px;
+	
+}
+
+.visual{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+.visual-item{
+	align-self: center;
+}
+
+@media only screen  and (max-width: 800px){
+	.peque{
+		font-size: 12px;
+	}
+	.visual{
+		padding: 1em;
+	}
+
+	.visual-item{
+		align-self: center;
+	}
+}
+
+@media only screen  and (max-width: 550px){
+	.peque{
+		font-size: 10px;
+	}
+	.visual{
+		padding: 1em 0em 1em 0em;
+		flex-wrap: wrap;
+	}
+
+	.visual-item{
+		align-self: center;
+	}
+}
+
+@media only screen  and (max-width: 450px){
+	.peque{
+		font-size: 14px;
+	}
+	.visual{
+		
+		flex-direction:column;		
+	
+	}
+
+	.visual-item{	
+		padding: 1em;
+	}
+}

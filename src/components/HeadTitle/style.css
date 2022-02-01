@@ -1,0 +1,54 @@
+.texto{
+	font-size: 16px;
+	padding: 2em;
+}
+
+.visual2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.visual2-item{
+	align-self: center;
+}
+
+
+@media only screen  and (max-width: 800px){
+	.texto{
+		font-size: 14px;
+		padding: 1em;
+	}
+
+	.visual{
+		padding: 1em;
+	}
+
+	.visual-item{
+		align-self: center;
+	}
+}	
+
+@media only screen  and (max-width: 550px){
+	.texto{
+		font-size: 12px;
+		padding: 1em 0em 1em 0em;
+	}
+	.visual{
+		padding: 1em 0em 1em 0em;
+	
+	}
+
+	.visual-item{
+		align-self: center;
+	}
+	
+}
+
+@media only screen  and (max-width: 450px){
+	.texto{
+		display: none;
+	}
+	
+}
