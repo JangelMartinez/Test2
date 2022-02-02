@@ -11,7 +11,7 @@ Make a projects in React JS with following functions:
 2- Add a control on the screen to switch to dark mode and back to normal mode.
 3- Each item has to be clickable, after clicking it redirects to another page with the information of this element.
  
-Requirements:
+###Requirements:
 Necessary components 
 Make the code as clean as possible 
 Web Responsive
