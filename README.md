@@ -12,6 +12,9 @@ Make a projects in React JS with following functions:
 3- Each item has to be clickable, after clicking it redirects to another page with the information of this element.
  
 ### Requirements:
-Necessary components 
-Make the code as clean as possible 
+Necessary components
+
+Make the code as clean as possible
+
 Web Responsive
+
